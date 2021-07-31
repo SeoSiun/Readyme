@@ -2,14 +2,17 @@ import playImg from '../assets/movie_play.svg';
 import allImg from '../assets/movie_all.svg';
 import audioImg from '../assets/movie_audio.svg';
 import removeImg from '../assets/movie_remove.svg';
+import './Menu.css';
 
 function init(type, season, episode){
   let title="";
   let src;
+  let color="";
   switch(type){
     case "Play":
       title = `Play S${season} E${episode}`;
       src = playImg;
+      color="White";
       break;
     case "All":
       title = "All episodes";
@@ -26,18 +29,18 @@ function init(type, season, episode){
     default:
       return null;
   }
-  return {src, title};
+  return {src, title, color};
 };
 
-function Menu({ className, type, season=-1, episode=-1 }){
-  const {src, title} = init(type, season, episode);
-  console.log(src);
+function Menu({ className, value, season=-1, episode=-1, onClick }){
+  const {src, title, color} = init(value, season, episode);
+  const handleClick = () => onClick(value);
 
   return(
-    <div className={className}>
+    <button className={className} onClick={handleClick}>
       <img className="Menu-icon" src={src} alt="menu icon"/>
-      <h4 className="menu-title">{title}</h4>
-    </div>
+      <h4 className={"Menu-title"+color}>{title}</h4>
+    </button>
   );
 }
 

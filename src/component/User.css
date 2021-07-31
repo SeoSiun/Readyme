@@ -1,0 +1,46 @@
+.User {
+  width: 200px;
+  height: 60px;
+}
+
+.User-image{
+  position: absolute;
+  width: 53px;
+  height: 53px;
+  left: 2px;
+  top: 4px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 23.5px;
+}
+.User-ellipse{
+  position: absolute;
+  width: 56px;
+  height: 55px;
+  left: 0px;
+  top: 0px;
+}
+
+.User-name{
+  position: absolute;
+  left: 70px;
+  top: -9px;
+  font-family: Lato;
+  font-style: bold;
+  font-weight: 1500;
+  font-size: 20px;
+  color: #000000;
+}
+
+.User-auth{
+  position: absolute;
+  left: 72px;
+  top: 23px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+
+  color: #ADADAF;
+}

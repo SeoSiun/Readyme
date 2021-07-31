@@ -1,0 +1,40 @@
+.Button-prev{
+  width: 44px;
+  height: 45px;
+  backdrop-filter: blur(4px);
+  border-radius: 5px;
+  background-image: url(../assets/movie_btn_prev.svg);
+  border: none;
+  background-repeat: no-repeat;
+  background-size: contain;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.Button-next{
+  position: absolute;
+  left: 120px;
+  top: 0px;
+  width: 44px;
+  height: 45px;
+  backdrop-filter: blur(4px);
+  border-radius: 5px;
+  background-image: url(../assets/movie_btn_next.svg);
+  border: none;
+  background-repeat: no-repeat;
+  background-size: contain;
+  outline: none;
+  text-align: center;
+  cursor:pointer;
+}
+
+.Button-prev:hover {
+  border: 1px solid #CCCCCC;
+  box-sizing: border-box;
+}
+
+.Button-next:hover {
+  border: 1px solid #CCCCCC;
+  box-sizing: border-box;
+}

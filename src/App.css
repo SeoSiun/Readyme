@@ -1,0 +1,68 @@
+.App {
+  position: relative;
+  width: 1440px;
+  height: 802px;
+  background-color: #FFFFFF;
+  z-index: -2;
+}
+
+.App-user{
+  position: absolute;
+  left: 63px;
+  top: 60px;
+}
+
+.App-buttons{
+  position: absolute;
+  right: 740px;
+  top: 63px;
+}
+
+.App-logo{
+  position: absolute;
+  width: 82px;
+  height: 27px;
+  left: 220px;
+  top: 182px;
+}
+
+.App-movie{
+  position: absolute;
+  left: 215px;
+  top: 210px;
+}
+
+.App-menu1{
+  position: absolute;
+  left: 218px;
+  top: 540px;
+  background: #000000;
+}
+
+.App-menu2{
+  position: absolute;
+  left: 500px;
+  top: 540px;
+}
+
+.App-menu3{
+  position: absolute;
+  left: 218px;
+  top: 640px;
+}
+
+.App-menu4{
+  position: absolute;
+  left: 500px;
+  top: 640px;
+}
+
+
+.App-movieImg{
+  position: absolute;
+  width: 625px;
+  height: 802px;
+  right: 0px;
+  top: 0px;
+  z-index: -1;
+}

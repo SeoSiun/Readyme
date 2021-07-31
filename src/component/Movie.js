@@ -1,5 +1,6 @@
 import starFill from '../assets/movie_star_fill.svg';
 import starEmpty from '../assets/movie_star_empty.svg';
+import './Movie.css';
 
 function Movie({ className, title, star }){
   const stars = [];
@@ -29,7 +30,7 @@ function Movie({ className, title, star }){
         <img className="Movie-star" src={stars[4]} alt="star5"></img>
       </div>
       <div className="Movie-year">{year}</div>
-      <div className="Movie-season">{season+"Season"}</div>
+      <div className="Movie-season">{season+" Season"}</div>
       <div className="Movie-resolution">{resolution}</div>
       <p className="Movie-content">{content}</p>
     </div>
