@@ -12,6 +12,11 @@
   cursor: pointer;
 }
 
+.Button-prev:hover {
+  border: 1px solid #CCCCCC;
+  box-sizing: border-box;
+}
+
 .Button-next{
   position: absolute;
   left: 120px;
@@ -27,11 +32,6 @@
   outline: none;
   text-align: center;
   cursor:pointer;
-}
-
-.Button-prev:hover {
-  border: 1px solid #CCCCCC;
-  box-sizing: border-box;
 }
 
 .Button-next:hover {

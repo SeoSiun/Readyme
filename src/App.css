@@ -3,7 +3,6 @@
   width: 1440px;
   height: 802px;
   background-color: #FFFFFF;
-  z-index: -2;
 }
 
 .App-user{
@@ -14,7 +13,7 @@
 
 .App-buttons{
   position: absolute;
-  right: 740px;
+  right: 755px;
   top: 63px;
 }
 
@@ -57,12 +56,10 @@
   top: 640px;
 }
 
-
 .App-movieImg{
   position: absolute;
   width: 625px;
   height: 802px;
   right: 0px;
-  top: 0px;
-  z-index: -1;
+  top: -20px;
 }
