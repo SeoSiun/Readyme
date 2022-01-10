@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html style="margin-left:15%;margin-right:20%;margin-top:5%;margin-bottom:5%">
+<head>
+  <title>대탈출 - 대탈출</title>
+  <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="colors.js"></script>
+<script type="text/javascript">
+  function editTitle(){
+    const title = document.getElementById('newTitle').value;
+    document.getElementById('title').innerText = title;
+    document.getElementById('newTitle').value="";
+  }
+</script>
+</head>
+<body>
+  <input type="button" value="night" onclick="
+    nightDayHandler(this);
+  ">
+  <h1><a href="index.html">대탈출</a></h1>
+  <ol style="margin-left:-20px;font-size:20px">
+    <li><a href="1.html">대탈출</a></li>
+    <li><a href="2.html">대탈출 시즌1</a></li>
+    <li><a href="3.html">대탈출 시즌2</a></li>
+  </ol>
+
+  <h2 id = "title">대탈출</h2>
+  <input type="text" id="newTitle" placeholder="new title">
+  <input type="button" value="edit" onclick="
+    editTitle();
+  ">
+  <br>
+  <br>
+  <img src="mainImage.jpg" width="60%">
+
+  <p style="margin=left:20px;">
+    <br>한 번 갇히면, 빠져나올 수 없다?!<br>
+    극한의 탈출 버라이어티!<br>
+    <strong>나가야 산다</strong><br><br>
+  </p>
+
+  <p>출연 : 강호동, 김종민, 피오, 유병재, 신동, 김동현</p>
+
+  <p style="margin-top:30px;">'대탈출'은 더 지니어스 시리즈와 소사이어티 게임을 만든 정종연 PD가 연출하고
+     tvN에서 방송하는 어드벤처 버라이어티 예능으로 프로그램의 콘셉트는 대탈주에서 따온 것으로 보인다.
+  <br>메인 오프닝 테마는 스페이스 카우보이의 Turning Point. 제목의 의미가 전환점인 걸 보아 탈출할 때
+  필요한 '발상의 전환'을 의미한 선곡으로 보인다.</p>
+  <p>강호동, 김종민, 김동현, 신동, 유병재, 피오가 출연하며 2018년 7월 1일 첫방송을 했는데
+     방탈출 카페의 테마를 실사화 한듯한 높은 퀄리티의 세트장 구조,
+     치밀하고 탄탄한 스토리 구성과 반전 트릭 등으로 화제를 모았다.</p>
+  <p>2020년 12월 24일, 정종연 PD가 직접 진행한 유튜브 아이콘 유튜브 라이브에서
+    시즌 4는 2021년 빠른 하반기 방송이 목표이고, 멤버의 변동은 없다고 한다.
+  상세한 시나리오에 대해서는 아직 기획 단계라고 한다.
+  정황상 여고추리반을 마무리한 다음 본격적인 제작을 시작할 것으로 보인다.
+  <br>2021년 6월 1일 공식 유튜브 (<a href="https://www.youtube.com/channel/UCXiyTPrIG8ziM6_6m7U4eQg"
+  target="_blank" title="DTCU yotube channel">DTCU</a>)이 개설되었다.</p>
+
+</body>
+</html>
